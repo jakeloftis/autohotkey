@@ -5,7 +5,7 @@ loop
 {
     If not Toggle
   {
-        break ; breaks the script when key at top of page is pressed, can enter additional scripts above "break" to reset keys in down position with "send {w up}" or the likes
+        break ; stops the script when key at top of page is pressed, can enter additional scripts above "break" to to perform actions when script is stopped IE: send {w up} if W was pressed down during script below
   }
 	DELETE-THIS-AND-TYPE-SCRIPT ; script goes here, type what to toggle on
 }
